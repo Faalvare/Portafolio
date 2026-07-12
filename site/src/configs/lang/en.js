@@ -43,7 +43,7 @@ export default {
       "ibm": "IBM Do!Lab Student"
     },
     descriptions: {
-      "pentacrom": "Currently building Perrot — a foreign-trade digitalization platform (Dashboard + API) — using React + TypeScript on the front and .NET/C# on the back. Also designed and built the corporate site pentacrom.cl from designer-provided PDFs. End-to-end responsibility: I provision the production infrastructure (VPS, Docker, Nginx reverse proxy, server administration) for every project we ship, and I also configure, update and maintain hosted client sites such as elquintopoder.cl and fdd.cl (Fundación Democracia y Desarrollo).",
+      "pentacrom": "Currently building two platforms in parallel: Comex, a foreign-trade digitalization platform (real-time control tower, AI-analyzed documents, automatic demurrage alerts), and the redesign of SIP, the order-entry system (NestJS + PostgreSQL, integrated with the company's WMS and with SSO shared across apps). Also designed and built the corporate site pentacrom.cl from designer-provided PDFs. End-to-end responsibility: I provision the production infrastructure (VPS, Docker, Nginx reverse proxy, server administration) for every project we ship, and I also configure, update and maintain hosted client sites such as elquintopoder.cl and fdd.cl (Fundación Democracia y Desarrollo).",
       "pignus": "Designed and developed virtual reality simulators in Unity3D for training and operational scenarios.",
       "sima": "Developed a socio-educational robot leveraging smartphone hardware, augmented reality and AI-powered cognitive features.",
       "ibm": "Built solutions for IBM retail clients on the Bluemix (IBM Cloud) platform: Python scripting, full-stack web apps, and IBM cognitive tooling."
