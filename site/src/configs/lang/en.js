@@ -47,46 +47,6 @@ export default {
       "pignus": "Designed and developed virtual reality simulators in Unity3D for training and operational scenarios.",
       "sima": "Developed a socio-educational robot leveraging smartphone hardware, augmented reality and AI-powered cognitive features.",
       "ibm": "Built solutions for IBM retail clients on the Bluemix (IBM Cloud) platform: Python scripting, full-stack web apps, and IBM cognitive tooling."
-    },
-    highlights: {
-      "pentacrom": [
-        "Comex platform (foreign trade): real-time control tower, AI-analyzed documents and automatic alerts — .NET 8, SignalR, React 19",
-        "Redesigned SIP (order system) with NestJS + PostgreSQL, integrated with WMS and shared SSO; end-to-end production infrastructure (Docker, Nginx)"
-      ],
-      "pignus": [
-        "VR leadership and operations simulators in Unity3D for training, with a performance-data pipeline into an analytics dashboard",
-        "Scene design, light baking, and Oculus deployments for client teams"
-      ],
-      "sima": [
-        "Socio-educational robot with AI and AR (SimaRobot), showcased at CES 2020; led app development as the team grew",
-        "Built SimaKnowledge and SimaCode; BLE communication with the robot firmware"
-      ],
-      "ibm": [
-        "Solutions for IBM retail clients on Bluemix (IBM Cloud): Python scripting and full-stack web apps"
-      ]
-    }
-  },
-  cv: {
-    tagline: "Unity3D · .NET · React · AR / VR",
-    summary: "Full-stack developer with 8+ years across web, games and AR/VR. Currently building enterprise platforms —real-time collaboration, AI, multi-app SSO— with full project ownership, working directly with clients from requirements through production.",
-    portfolioNote: "Full portfolio with screenshots and technical detail:",
-    sections: {
-      summary: "Summary",
-      experience: "Experience",
-      skills: "Skills",
-      projects: "Selected Projects",
-      focus: "Focus"
-    },
-    focusPoints: [
-      "Full ownership, from requirements to production",
-      "Real-time, AI and SSO in enterprise platforms",
-      "Direct work with clients and teams"
-    ],
-    projectTags: {
-      "comex-platform": "logistics control tower",
-      "sip-pedidos": "real-time WMS sync",
-      "pentacrom-site": "live in production",
-      "simarobot": "CES 2020, Las Vegas"
     }
   },
   projects: {

@@ -32,35 +32,3 @@ body {
     @apply hover:shadow-lg;
   }
 }
-
-@media print {
-  @page {
-    margin: 1.4cm;
-  }
-  html, body, .dark body, body.dark {
-    background: #fff !important;
-  }
-  /* Force legible dark text regardless of the site's dark-mode state */
-  * {
-    color: #111 !important;
-  }
-  /* Higher-specificity accents for the CV, still safe under dark mode */
-  .cv-accent {
-    color: #1d4ed8 !important;
-  }
-  .cv-muted {
-    color: #555 !important;
-  }
-  .cv-accent-bg,
-  .cv-pill {
-    -webkit-print-color-adjust: exact;
-    print-color-adjust: exact;
-  }
-  .cv-accent-bg {
-    background: #1d4ed8 !important;
-  }
-  .cv-pill {
-    background: #f2f2f2 !important;
-    border: 1px solid #ddd !important;
-  }
-}

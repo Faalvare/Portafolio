@@ -12,12 +12,7 @@ const Navbar = () => {
   return (
     <nav key={lang} className="fixed top-0 left-0 w-full bg-white/90 dark:bg-gray-900/90 backdrop-blur-md shadow-sm z-50">
       <div className="container mx-auto px-6 py-4">
-        <div className="flex justify-between items-center">
-          {/* Logo */}
-          <a href="#hero" className="text-xl font-bold text-blue-600 dark:text-blue-400 hover:opacity-80 transition-opacity">
-            FA
-          </a>
-
+        <div className="flex justify-end items-center">
           {/* Desktop Menu */}
           <div className="hidden md:flex items-center gap-6">
             {NAV_DATA.map((item) => (

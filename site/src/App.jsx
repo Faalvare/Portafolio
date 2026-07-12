@@ -10,25 +10,21 @@ import Projects from './sections/Projects'
 import Contact from './sections/Contact'
 import Footer from './components/Footer'
 import SEO from './components/SEO'
-import CVPrint from './components/CVPrint'
 
 function App() {
   return (
 
-    <div className="font-sans antialiased transition-colors duration-300"
+    <div className="min-h-screen font-sans antialiased transition-colors duration-300"
     >
       <SEO />
-      <div className="min-h-screen print:hidden">
-        <Navbar />
-        <Hero />
-        <About />
-        <Skills />
-        <Projects />
-        <Experience />
-        <Contact />
-        <Footer />
-      </div>
-      <CVPrint />
+      <Navbar />
+      <Hero />
+      <About />
+      <Skills />
+      <Projects />
+      <Experience />
+      <Contact />
+      <Footer />
     </div>
   )
 }
