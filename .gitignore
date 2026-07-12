@@ -1,0 +1,18 @@
+node_modules
+dist
+.DS_Store
+.env
+.env.local
+*.log
+
+# Personal / unpublished assets (kept locally, not committed)
+/Profile.pdf
+/fabian-alvarez-cv.pdf
+/*.jfif
+/public/
+/fotos/
+
+# Dev scratch files
+_*.py
+_*.json
+_*.txt

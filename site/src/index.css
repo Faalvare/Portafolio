@@ -1,0 +1,79 @@
+/* src/index.css */
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+/* Tus estilos personalizados (opcional) */
+
+body {
+  @apply bg-gray-50 dark:bg-gray-900;
+}
+
+@layer base {
+  h1 {
+    @apply text-2xl font-bold;
+  }
+  p {
+    @apply text-gray-700 dark:text-gray-300;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white rounded-lg shadow transition;
+  }
+  .container {
+    @apply w-full max-w-6xl mx-auto px-4;
+  }
+}
+
+@layer utilities {
+  .shadow-lg-hover {
+    @apply hover:shadow-lg;
+  }
+}
+
+@media print {
+  html, body, .dark body, body.dark {
+    background: #fff !important;
+    color: #111 !important;
+  }
+  *, *::before, *::after {
+    color: #111 !important;
+    background: transparent !important;
+    box-shadow: none !important;
+    text-shadow: none !important;
+    border-color: #ddd !important;
+  }
+
+  nav, header, footer,
+  #hero a[href^="#contact"],
+  #hero .flex.gap-6,
+  #contact form,
+  #contact a[href^="mailto"],
+  button {
+    display: none !important;
+  }
+
+  [aria-label="Spanish"], [aria-label="English"],
+  [aria-label*="theme" i], [aria-label*="tema" i] {
+    display: none !important;
+  }
+
+  section {
+    min-height: 0 !important;
+    page-break-inside: avoid;
+    padding: 1rem 0 !important;
+  }
+
+  #hero img { width: 120px !important; height: 120px !important; }
+  #hero p[style*="monospace"] { display: none !important; }
+
+  #projects > div > div { grid-template-columns: 1fr !important; }
+  #projects .grid > * { page-break-inside: avoid; margin-bottom: 1rem; }
+
+  a[href^="http"]::after { content: " (" attr(href) ")"; font-size: 0.85em; color: #555; }
+  a[href^="mailto:"]::after { content: ""; }
+
+  [aria-expanded="false"] + div { height: auto !important; opacity: 1 !important; }
+}
