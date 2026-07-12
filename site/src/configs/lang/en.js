@@ -31,8 +31,7 @@ export default {
     bio: [
       "I'm a software developer with 8+ years of experience shipping apps, games and immersive experiences.",
       "From 2018 to 2023 my main focus was Unity3D — building 2D, 3D, AR and VR applications — alongside web apps in ASP.NET. That chapter covered simulators, educational robotics, AR/geo experiences and indie games.",
-      "Today I work full-stack on the web building enterprise platforms: systems with real-time collaboration, AI-assisted document processing, and multi-app architectures with centralized SSO. React + TypeScript + Tailwind on the front, .NET / C# and Node.js (NestJS) on the back, with end-to-end ownership of production infrastructure (VPS, Docker, Nginx). I own these projects end-to-end: I work directly with clients from gathering requirements through production and ongoing support. For cross-platform mobile I reach for React Native. If you have an idea, I'll find the right tools to make it happen.",
-      "To be transparent: I use AI tools like Claude (Anthropic) as part of my daily workflow to move faster. The technical judgment, architecture and decisions are still mine — AI is another tool, not a replacement."
+      "Today I work full-stack on the web building enterprise platforms: systems with real-time collaboration, AI-assisted document processing, and multi-app architectures with centralized SSO. React + TypeScript + Tailwind on the front, .NET / C# and Node.js (NestJS) on the back, with end-to-end ownership of production infrastructure (VPS, Docker, Nginx). I own these projects end-to-end: I work directly with clients from gathering requirements through production and ongoing support. For cross-platform mobile I reach for React Native. If you have an idea, I'll find the right tools to make it happen."
     ]
   },
   experience: {
