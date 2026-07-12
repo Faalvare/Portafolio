@@ -26,7 +26,7 @@ The `prebuild` step optimizes images in `public/img/` and regenerates `index.htm
 Content lives in `src/configs/`:
 
 - `data/site.js` — contact info and social links
-- `data/experience.js`, `data/education.js`, `data/projects.js`, `data/skills.js` — section data
+- `data/experience.js`, `data/projects.js`, `data/skills.js` — section data
 - `lang/en.js`, `lang/es.js` — all user-facing strings (titles, descriptions, results)
 
 Components and sections don't need to be edited for content changes.
