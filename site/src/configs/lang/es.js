@@ -67,13 +67,26 @@ export default {
     }
   },
   cv: {
-    summary: "Desarrollador full-stack con más de 8 años de experiencia en web, videojuegos y AR/VR. Hoy construyo plataformas empresariales (colaboración en tiempo real, IA, SSO multi-app) con ownership completo del proyecto, trabajando directo con clientes desde el requerimiento hasta producción.",
+    tagline: "Unity3D · .NET · React · AR / VR",
+    summary: "Desarrollador full-stack con más de 8 años de experiencia en web, videojuegos y AR/VR. Hoy construyo plataformas empresariales —colaboración en tiempo real, IA, SSO multi-app— con ownership completo del proyecto, trabajando directo con clientes desde el requerimiento hasta producción.",
     portfolioNote: "Portafolio completo con capturas y detalle técnico:",
     sections: {
       summary: "Resumen",
       experience: "Experiencia",
-      skills: "Habilidades Técnicas",
-      projects: "Proyectos Destacados"
+      skills: "Habilidades",
+      projects: "Proyectos Destacados",
+      focus: "Enfoque"
+    },
+    focusPoints: [
+      "Ownership completo, del requerimiento a producción",
+      "Tiempo real, IA y SSO en plataformas empresariales",
+      "Trato directo con clientes y equipos"
+    ],
+    projectTags: {
+      "comex-platform": "torre de control logística",
+      "sip-pedidos": "tiempo real con WMS",
+      "pentacrom-site": "en producción",
+      "simarobot": "CES 2020, Las Vegas"
     }
   },
   projects: {

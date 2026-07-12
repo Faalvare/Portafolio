@@ -67,13 +67,26 @@ export default {
     }
   },
   cv: {
-    summary: "Full-stack developer with 8+ years across web, games and AR/VR. Currently building enterprise platforms (real-time collaboration, AI, multi-app SSO) with full project ownership, working directly with clients from requirements through production.",
+    tagline: "Unity3D · .NET · React · AR / VR",
+    summary: "Full-stack developer with 8+ years across web, games and AR/VR. Currently building enterprise platforms —real-time collaboration, AI, multi-app SSO— with full project ownership, working directly with clients from requirements through production.",
     portfolioNote: "Full portfolio with screenshots and technical detail:",
     sections: {
       summary: "Summary",
       experience: "Experience",
-      skills: "Technical Skills",
-      projects: "Selected Projects"
+      skills: "Skills",
+      projects: "Selected Projects",
+      focus: "Focus"
+    },
+    focusPoints: [
+      "Full ownership, from requirements to production",
+      "Real-time, AI and SSO in enterprise platforms",
+      "Direct work with clients and teams"
+    ],
+    projectTags: {
+      "comex-platform": "logistics control tower",
+      "sip-pedidos": "real-time WMS sync",
+      "pentacrom-site": "live in production",
+      "simarobot": "CES 2020, Las Vegas"
     }
   },
   projects: {

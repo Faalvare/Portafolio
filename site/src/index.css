@@ -51,4 +51,16 @@ body {
   .cv-muted {
     color: #555 !important;
   }
+  .cv-accent-bg,
+  .cv-pill {
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+  .cv-accent-bg {
+    background: #1d4ed8 !important;
+  }
+  .cv-pill {
+    background: #f2f2f2 !important;
+    border: 1px solid #ddd !important;
+  }
 }
