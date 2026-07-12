@@ -46,7 +46,7 @@ const Projects = () => {
   return (
     <section
       id="projects"
-      className="min-h-screen flex items-center py-20 px-6 bg-white dark:bg-gray-800 transition-colors duration-300"
+      className="min-h-screen flex items-center py-20 px-6 bg-white/70 dark:bg-gray-800/70 transition-colors duration-300"
     >
       <div className="container mx-auto max-w-6xl">
         <FadeInSection>

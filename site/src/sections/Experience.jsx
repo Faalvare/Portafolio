@@ -7,7 +7,7 @@ import { EXPERIENCE_DATA } from '../configs/data/experience';
 const Experience = () => {
   const { t } = useTranslation();
   return (
-    <section id="experience" className="min-h-screen flex items-center py-20 px-6 bg-gray-50 dark:bg-gray-900">
+    <section id="experience" className="min-h-screen flex items-center py-20 px-6 bg-gray-50/70 dark:bg-gray-900/70">
       <div className="container mx-auto max-w-4xl">
         <FadeInSection>
           <h2 className="text-3xl font-bold mb-12 text-center text-gray-800 dark:text-white">

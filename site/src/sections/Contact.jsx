@@ -10,7 +10,7 @@ const Contact = () => {
   return (
     <section
       id="contact"
-      className="flex py-20 px-6 bg-gray-50 dark:bg-gray-900 transition-colors duration-300"
+      className="flex py-20 px-6 bg-gray-50/70 dark:bg-gray-900/70 transition-colors duration-300"
     >
       <div className="container mx-auto max-w-3xl text-center">
         <h2 className="text-3xl font-bold mb-4 text-gray-800 dark:text-white">

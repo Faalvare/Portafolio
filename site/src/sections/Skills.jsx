@@ -10,7 +10,7 @@ const Skills = () => {
     <section
       id="skills"
       className="min-h-screen flex items-center py-20 px-6
-              bg-gray-50 dark:bg-gray-900
+              bg-gray-50/70 dark:bg-gray-900/70
               transition-colors duration-300"
     >
       <div className="container mx-auto max-w-5xl">

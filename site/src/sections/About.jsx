@@ -9,7 +9,7 @@ const About = () => {
       id="about"
       className="min-h-screen py-20 px-6
                 transition-colors duration-300 flex items-center
-              bg-white dark:bg-gray-800"
+              bg-white/70 dark:bg-gray-800/70"
     >
       <div className="container mx-auto max-w-4xl text-center">
         <FadeInSection>

@@ -50,10 +50,13 @@ const Hero = () => {
   return (
     <section
       id="hero"
-      className="min-h-screen flex items-center justify-center px-6 py-20
-      bg-gradient-to-br  bg-gray-50 dark:from-gray-900 dark:to-gray-800 transition-colors duration-700"
+      className="relative min-h-screen flex items-center justify-center px-6 py-20 overflow-hidden
+      bg-gray-50/70 dark:bg-gray-900/70 transition-colors duration-700"
     >
-      <div className="container mx-auto max-w-screen-xl">
+      <div aria-hidden="true" className="pointer-events-none absolute inset-0 flex items-center justify-center">
+        <div className="w-[550px] h-[550px] rounded-full bg-blue-400/25 dark:bg-blue-500/20 blur-[120px]"></div>
+      </div>
+      <div className="container mx-auto max-w-screen-xl relative">
         <div className="flex items-center justify-center">
           <div className="text-center max-w-2xl">
             <h1 className="text-4xl md:text-6xl font-bold text-gray-800 dark:text-white mb-2 leading-tight">
