@@ -1,4 +1,3 @@
-/* eslint-disable no-useless-escape */
 // src/sections/Hero.jsx
 import { FaGithub, FaLinkedin, FaEnvelope, FaDiscord } from 'react-icons/fa';
 import { FaXTwitter } from 'react-icons/fa6';
@@ -52,8 +51,6 @@ const Hero = () => {
     }
   }, [ text, isDeleting, phraseIndex, speed, heroPhrases ]);
 
-  const stripProto = (url) => url?.replace(/^https?:\/\//, '').replace(/\/$/, '');
-
   return (
     <section
       id="hero"
@@ -83,20 +80,14 @@ const Hero = () => {
             </p>
 
             <p
-              className="text-lg md:text-xl font-mono text-gray-700 dark:text-gray-300 mb-8 tracking-wide print:hidden"
+              className="text-lg md:text-xl font-mono text-gray-700 dark:text-gray-300 mb-8 tracking-wide"
               style={{ fontFamily: 'Monaco, Menlo, "Ubuntu Mono", "Fira Code", monospace' }}
             >
               {text}
               <span className="inline-block w-px h-8 bg-blue-600 dark:bg-blue-400 animate-pulse ml-1"></span>
             </p>
 
-            <div className="hidden print:block text-sm text-gray-700 mb-4 leading-relaxed">
-              {SITE_DATA.email && <div>{SITE_DATA.email}</div>}
-              {SITE_DATA.social.github && <div>{stripProto(SITE_DATA.social.github)}</div>}
-              {SITE_DATA.social.linkedin && <div>{stripProto(SITE_DATA.social.linkedin)}</div>}
-            </div>
-
-            <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start mb-8 print:hidden">
+            <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start mb-8">
               <button
                 type="button"
                 onClick={handlePrintCV}
@@ -115,7 +106,7 @@ const Hero = () => {
             </div>
 
             {/* Redes sociales */}
-            <div className="flex justify-center lg:justify-start gap-6 text-2xl print:hidden">
+            <div className="flex justify-center lg:justify-start gap-6 text-2xl">
               {SITE_DATA.social.github &&
                 <a href={SITE_DATA.social.github} target="_blank" rel="noopener noreferrer" aria-label="GitHub" className="text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 transition-transform hover:scale-110">
                   <FaGithub />

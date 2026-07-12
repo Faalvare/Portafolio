@@ -47,6 +47,33 @@ export default {
       "pignus": "Diseño y desarrollo de simuladores en entornos de realidad virtual usando Unity3D, enfocados en capacitación y escenarios operacionales.",
       "sima": "Desarrollo de un robot socioeducativo aprovechando la potencia de cada smartphone, dotándolo de tecnologías de inteligencia y realidad aumentada.",
       "ibm": "Soluciones para clientes de IBM del área de retail sobre la plataforma Bluemix (IBM Cloud): scripts en Python, aplicaciones web front y back, y uso de herramientas cognitivas de IBM."
+    },
+    highlights: {
+      "pentacrom": [
+        "Plataforma Comex (comercio exterior): torre de control en tiempo real, documentos analizados con IA y alertas automáticas — .NET 8, SignalR, React 19",
+        "Rediseño de SIP (pedidos) con NestJS + PostgreSQL, integrado a WMS y SSO compartido; infraestructura de producción end-to-end (Docker, Nginx)"
+      ],
+      "pignus": [
+        "Simuladores VR de liderazgo y operaciones en Unity3D para capacitación, con pipeline de datos hacia dashboard de analytics",
+        "Diseño de escenas, light baking y entregas en Oculus para equipos cliente"
+      ],
+      "sima": [
+        "Robot socioeducativo con IA y realidad aumentada (SimaRobot), exhibido en CES 2020; lideré el desarrollo de la app al crecer el equipo",
+        "Construí SimaKnowledge y SimaCode; comunicación BLE con el firmware del robot"
+      ],
+      "ibm": [
+        "Soluciones para clientes retail de IBM sobre Bluemix (IBM Cloud): scripts en Python y aplicaciones web full-stack"
+      ]
+    }
+  },
+  cv: {
+    summary: "Desarrollador full-stack con más de 8 años de experiencia en web, videojuegos y AR/VR. Hoy construyo plataformas empresariales (colaboración en tiempo real, IA, SSO multi-app) con ownership completo del proyecto, trabajando directo con clientes desde el requerimiento hasta producción.",
+    portfolioNote: "Portafolio completo con capturas y detalle técnico:",
+    sections: {
+      summary: "Resumen",
+      experience: "Experiencia",
+      skills: "Habilidades Técnicas",
+      projects: "Proyectos Destacados"
     }
   },
   projects: {

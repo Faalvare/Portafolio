@@ -34,46 +34,14 @@ body {
 }
 
 @media print {
+  @page {
+    margin: 1.4cm;
+  }
   html, body, .dark body, body.dark {
     background: #fff !important;
+  }
+  /* Force legible dark text regardless of the site's dark-mode state */
+  * {
     color: #111 !important;
   }
-  *, *::before, *::after {
-    color: #111 !important;
-    background: transparent !important;
-    box-shadow: none !important;
-    text-shadow: none !important;
-    border-color: #ddd !important;
-  }
-
-  nav, header, footer,
-  #hero a[href^="#contact"],
-  #hero .flex.gap-6,
-  #contact form,
-  #contact a[href^="mailto"],
-  button {
-    display: none !important;
-  }
-
-  [aria-label="Spanish"], [aria-label="English"],
-  [aria-label*="theme" i], [aria-label*="tema" i] {
-    display: none !important;
-  }
-
-  section {
-    min-height: 0 !important;
-    page-break-inside: avoid;
-    padding: 1rem 0 !important;
-  }
-
-  #hero img { width: 120px !important; height: 120px !important; }
-  #hero p[style*="monospace"] { display: none !important; }
-
-  #projects > div > div { grid-template-columns: 1fr !important; }
-  #projects .grid > * { page-break-inside: avoid; margin-bottom: 1rem; }
-
-  a[href^="http"]::after { content: " (" attr(href) ")"; font-size: 0.85em; color: #555; }
-  a[href^="mailto:"]::after { content: ""; }
-
-  [aria-expanded="false"] + div { height: auto !important; opacity: 1 !important; }
 }
