@@ -44,4 +44,11 @@ body {
   * {
     color: #111 !important;
   }
+  /* Higher-specificity accents for the CV, still safe under dark mode */
+  .cv-accent {
+    color: #1d4ed8 !important;
+  }
+  .cv-muted {
+    color: #555 !important;
+  }
 }
