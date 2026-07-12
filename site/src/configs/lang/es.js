@@ -62,6 +62,7 @@ export default {
       "pentacrom-site": "Pentacrom — Sitio Corporativo",
       "comex-platform": "Plataforma de Comercio Exterior",
       "sip-pedidos": "SIP — Sistema de Ingreso de Pedidos",
+      "ash-and-ale": "Ash & Ale — RPG Multijugador con IA",
       "pignus-liderando": "Pignus — Liderando en Terreno (VR)",
       "pignus-operadores": "Pignus — Operadores (VR)",
       "simarobot": "SimaRobot — Robot Educativo con AR",
@@ -75,6 +76,7 @@ export default {
       "pentacrom-site": "Sitio corporativo de Pentacrom desarrollado end-to-end a partir de diseños en PDF e imágenes de componentes entregados por la diseñadora. Responsive, accesible y en producción en pentacrom.cl.",
       "comex-platform": "Plataforma que digitaliza el ciclo completo de comercio exterior: orden de compra, embarque, aduana, logística nacional y facturación, con una torre de control en tiempo real sobre toda la operación. Los operadores colaboran en vivo sobre una misma solicitud (SignalR), los documentos de aduana se analizan con IA y un worker dispara alertas automáticas de sobrestadía antes de que se conviertan en gastos. Backend en .NET 8 + EF Core + SQL Server, frontend en React 19 + TypeScript + Tailwind.",
       "sip-pedidos": "Rediseño de un sistema legado de ingreso de pedidos en un stack moderno: NestJS + TypeORM + PostgreSQL en el backend, React + Vite + TypeScript en el front, con cliente API tipado generado desde OpenAPI. Se integra en tiempo real con el WMS de la empresa y con un servicio de autenticación compartido entre múltiples aplicaciones (JWT RS256) que centraliza roles y permisos. Cache Redis y entorno de desarrollo 100% Dockerizado.",
+      "ash-and-ale": "RPG multijugador en tiempo real por WebSocket, con compañeros de grupo controlados por IA que tienen personalidad propia, memoria persistente y conversan/discuten estrategia durante el combate. El motor de combate por turnos corre reglas en Lua embebido (fengari), y las evoluciones de clase avanzadas las genera la IA según la personalidad e historial de cada personaje. Fallback automático entre 11 proveedores de LLM para que el juego nunca se quede sin narrador. Backend en Node.js + WebSocket, cliente en React + Zustand.",
       "pignus-liderando": "Simulación VR de liderazgo en un entorno semi-construcción. El usuario asume el rol de líder de obra, asegurando que los trabajadores ejecuten sus tareas y cuenten con los recursos necesarios. Cada acción se convierte en datos crudos que se procesan y muestran como analytics en el dashboard de Pignus. A mi cargo: diseño de escenas, light baking, gran parte de la programación de gameplay y la capa de manejo de datos.",
       "pignus-operadores": "Simulación VR en un almacén: el usuario debe entregar materiales y elementos de protección a los trabajadores, con niveles de dificultad progresiva. El desempeño se captura como datos y se visualiza para los clientes en la plataforma Pignus. Trabajé en programación, diseño, lightmapping, setup del proyecto, procesamiento de datos e interacciones.",
       "simarobot": "Robot social educativo que aprovecha la potencia de cada smartphone, dotado con tecnologías de IA y realidad aumentada. Empecé como generalista y, al crecer el equipo, lideré el desarrollo de la app. Construí SimaKnowledge (autoría de contenido paso a paso con TTS, multimedia y movimiento del robot), implementé la comunicación BLE con el firmware, animé cada expresión del robot, refiné la UI y desarrollé la plataforma de coding SimaCode. Exhibido en CES 2020 en Las Vegas.",
@@ -99,6 +101,11 @@ export default {
         "Integración en tiempo real con el WMS (bodega) de la empresa",
         "SSO centralizado: roles y permisos por app vía JWT RS256",
         "Cliente API tipado autogenerado desde OpenAPI + Docker end-to-end"
+      ],
+      "ash-and-ale": [
+        "Compañeros IA con personalidad, memoria persistente y banter en combate",
+        "Evoluciones de clase generadas por IA según personalidad e historial",
+        "Fallback automático entre 11 proveedores de LLM + motor de reglas en Lua"
       ],
       "pignus-liderando": [
         "Programación · diseño de escenas · light baking",

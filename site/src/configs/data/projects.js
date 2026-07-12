@@ -61,6 +61,19 @@ export const PROJECTS_DATA = [
     private: true
   },
   {
+    id: "ash-and-ale",
+    image: "/projects/rpg-04-loot.gif",
+    images: [
+      "/projects/rpg-04-loot.gif",
+      "/projects/rpg-01-combat.png",
+      "/projects/rpg-02-party-log.png",
+      "/projects/rpg-03-char-sheet.png"
+    ],
+    tech: ["Node.js", "WebSocket", "React", "Zustand", "Vite", "Lua (fengari)", "SQLite", "Multi-provider LLM"],
+    link: null,
+    featured: true
+  },
+  {
     id: "pignus-liderando",
     image: "/projects/pignus-liderando.png",
     video: "/projects/pignus-liderando-preparacion.mp4",
