@@ -8,8 +8,7 @@ dist
 # Personal / unpublished assets (kept locally, not committed)
 /Profile.pdf
 /fabian-alvarez-cv.pdf
-/CV Fabian Alvarez.pdf
-/CV Fabian Alvarez EN.pdf
+/CV Fabian Alvarez*.pdf
 /*.jfif
 /public/
 /fotos/
